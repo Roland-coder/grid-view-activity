@@ -15,6 +15,15 @@ class ShoppingApp extends StatelessWidget {
     'images/woman3.jpg'
   ];
 
+  List<String> names = [
+    'Neba Roland',
+    'Neba Godlove',
+    'Njimu Brian',
+    'Nancy Umotoni',
+    'Fresh Dice',
+    'Mango Petra'
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -71,7 +80,7 @@ class ShoppingApp extends StatelessWidget {
                           //     height: 50, width: 50),
                           SizedBox(height: 10.0),
                           Center(
-                            child: Text('Etsy Shirt'),
+                            child: Text(names[i]),
                           ),
                         ],
                       ),
